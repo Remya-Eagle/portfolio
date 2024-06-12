@@ -1,0 +1,85 @@
+#intro {
+    height: calc(100vh-4rem);
+    width: 80vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    color:black; 
+    background-color: whitesmoke;
+}
+
+.bg {
+position: absolute;
+    z-index: -1;
+    right: 0;
+   top: -4rem;
+    object-fit: cover;
+    height: 80vh;
+  
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vW;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:black;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: white;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 65vw;
+}
+
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+
+@media screen and (max-width:840px) {
+    .bg {
+        right: -10vm;
+    }
+
+    .introContent {
+        font-size: 10vw;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+
+}
+
+@media screen and (max-width:440px) {
+    .bg {
+        right: -20vm;
+    }
+
+}
