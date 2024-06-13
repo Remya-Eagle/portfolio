@@ -11,10 +11,9 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello"><h2>Hello,</h2></span>
                 <span>I'm <span className="introname">Remya <br /> Full Stack Developer </span></span>
-                <p className="introPara">I am a skilled web developer with experience in creating visually appealing and user friendly websites.
-                I am passionate about creating innovative and user-friendly web applications that solve real-world problems. I have a strong background in Microsoft technologies, cloud computing, and agile methodologies, and  always eager to learn new skills and tools. <br></br>
-                
-                As a Software Developer,  I built the application from the ground up, using C#, ASP.NET,Web API ,Azure Function ,Azure Logic app ,Azure storage, Azure SQL server,MS SQL Server, Azure VM,Cloud deployments , and JavaScript, also  deployed and maintained the infrastructure of the product, ensuring high performance, security, and scalability. I migrated legacy VMs and products to the Azure cloud, reducing costs and improving efficiency.
+                <p className="introPara">
+                I am passionate about creating innovative and user-friendly web applications that solve real-world problems.              
+               
                  </p><p className='introPara'>
             
             
