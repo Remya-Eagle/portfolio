@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import btnImg from '../../assets/hire-me-50.png';
 //import bg from '../../assets/martina-girl-with-open-laptop-1.png';
-
+import git from '../../assets/git.png';
 import { Link } from 'react-scroll';
 
 const Intro = () => {
@@ -32,8 +32,9 @@ const Intro = () => {
 
 <strong>Professional Credentials</strong> <br></br>
 <strong>Microsoft Certified:</strong><br>
-</br> Azure AI Fundamentals-AI 900: <a href=" https://learn.microsoft.com/en-us/users/remyanair-8362/credentials/43fa418dc215bdfe">Visit Azure AI Fundamentals-AI 900!</a>
-<br></br>Linkedin: <a href=" www.linkedin.com/in/remya-nair-a11618195">Visit linkedin!</a><br></br>
+</br> Azure AI Fundamentals-AI 900: <a href=" https://learn.microsoft.com/en-us/users/remyanair-8362/credentials/43fa418dc215bdfe">Visit Azure AI Fundamentals-AI 900</a>
+<br></br>Linkedin: <a href="https://linkedin.com/in/remya-nair-a11618195">Visit Linkedin</a>
+<br></br>Git: <a href=" https://github.com/Remya-Eagle">Visit Git</a><br></br>
 <br></br>
 <ul><strong>Education</strong></ul>
 <li>University of Texas Post Graduation in Cloud Computing (In progress)</li>
