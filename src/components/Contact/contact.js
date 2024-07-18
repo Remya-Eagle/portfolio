@@ -34,11 +34,11 @@ const Contact = () => {
                     <textarea className='msg' name="message" row="5" placeholder='your Message'></textarea>
                     <button type='submit' value='Send' className="submitBtn">Submit</button>
                     <div className="links">
-                        <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Remya-Eagle" target="_blank" rel="noopener noreferrer">
 
                         <img src={Giticon} alt="Git" className="link" />
                         </a>
-                        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                        <a href="https://linkedin.com/in/remya-nair-a11618195" target="_blank" rel="noopener noreferrer">
                         <img src={Linkdin} alt="Linkdin" className="link" /> </a>
                     </div>
                 </form>

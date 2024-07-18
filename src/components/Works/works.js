@@ -9,7 +9,7 @@ import Entity from '../../assets/Designer.jpg';
 import Afunction from '../../assets/azure-function-app-main.png';
 import Ablob from '../../assets/blobs.png';
 import Avm from '../../assets/azure_vm.png';
-import Alogicapp from '../../assets/azure-logic-apps-designer.webp';
+import Alogicapp from '../../assets/azure-logic-apps-designer.jpg';
 
 import Mssql from '../../assets/SQL_image.jpg';
 import Azsql from '../../assets/azure-sql-server-database.png';
@@ -78,7 +78,7 @@ const Works = () => {
                         <Carousel.Item>
                             <div className='imgBlock'><img src={Avm} alt="Avm" className="d-block w-100" />
                                 <h6>Azure Cloud: </h6>
-                                <p>.Azure Functions ,Azure Logic Apps,Azure Insights,Azure App services,Azure Entra,Azure Vm,Azure deployment</p>
+                                <p>Azure Functions ,Azure Logic Apps,Azure Insights,Azure App services,Azure Entra,Azure Vm,Azure deployment</p>
                             </div>
                         </Carousel.Item>
 
